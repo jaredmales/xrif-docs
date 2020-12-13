@@ -88,10 +88,15 @@ $(document).ready(function(){initNavTree('structxrif__handle.html',''); initResi
 <div class="title">xrif_handle Struct Reference<div class="ingroups"><a class="el" href="group__xrif__interface.html">The main xrif library interface</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader"> </h2>
+<div class="textblock"><p>The xrif library configuration structure, organizing various parameters used by the functions. </p>
+<p>This structure provides for setup and management of memory allocation, though externally allocated buffers can be used when desired.</p>
+<p>Options related to compression level and speed are also provided.</p>
+<p>It is intended that this structure be interacted with via the xrif_t typedef, which is a pointer to <a class="el" href="structxrif__handle.html" title="The xrif library configuration structure, organizing various parameters used by the functions.">xrif_handle</a>. Values of this structure should generally be changed by one of the xrif_set_*() functions, to allow for error checking and consistency. Unless you know what you're doing, of course.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>need xrif_set_XXXX function unit tests</dd></dl>
 
-<p>The xrif library configuration structure, organizing various parameters used by the functions.  
- <a href="structxrif__handle.html#details">More...</a></p>
-
+<p class="definition">Definition at line <a class="el" href="xrif_8h_source.html#l00293">293</a> of file <a class="el" href="xrif_8h_source.html">xrif.h</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="xrif_8h_source.html">xrif.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -255,15 +260,7 @@ struct timespec&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 <tr class="memdesc:a9d0a0e69ca4a0e3ee56a641e8b34c425"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timespec used to mark the end of undifferencing and decoding. <br /></td></tr>
 <tr class="separator:a9d0a0e69ca4a0e3ee56a641e8b34c425"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The xrif library configuration structure, organizing various parameters used by the functions. </p>
-<p>This structure provides for setup and management of memory allocation, though externally allocated buffers can be used when desired.</p>
-<p>Options related to compression level and speed are also provided.</p>
-<p>It is intended that this structure be interacted with via the xrif_t typedef, which is a pointer to <a class="el" href="structxrif__handle.html" title="The xrif library configuration structure, organizing various parameters used by the functions.">xrif_handle</a>. Values of this structure should generally be changed by one of the xrif_set_*() functions, to allow for error checking and consistency. Unless you know what you're doing, of course.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>need xrif_set_XXXX function unit tests</dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="xrif_8h_source.html#l00293">293</a> of file <a class="el" href="xrif_8h_source.html">xrif.h</a>.</p>
-</div><h2 class="groupheader">Field Documentation</h2>
+<h2 class="groupheader">Field Documentation</h2>
 <a id="a8510e35db561c4659a27004cc5ffa572"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8510e35db561c4659a27004cc5ffa572">&#9670;&nbsp;</a></span>compressed_buffer_size</h2>
 

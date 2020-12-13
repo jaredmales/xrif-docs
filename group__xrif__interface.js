@@ -1,9 +1,5 @@
 var group__xrif__interface =
 [
-    [ "Initialization, Setup, and Allocation", "group__xrif__init.html", "group__xrif__init" ],
-    [ "Header Processing", "group__header.html", "group__header" ],
-    [ "Encoding & Decoding", "group__xrif__encode.html", "group__xrif__encode" ],
-    [ "Performance Measurements", "group__xrif__performance.html", "group__xrif__performance" ],
     [ "xrif_handle", "structxrif__handle.html", [
       [ "calc_performance", "structxrif__handle.html#a5ba34361c4e591ada7f4134c586fe63c", null ],
       [ "compress_method", "structxrif__handle.html#ae4cca09b5194eaa0f825e4398f0344f2", null ],
@@ -48,5 +44,9 @@ var group__xrif__interface =
       [ "type_code", "structxrif__handle.html#a4a2a784032b50e0a92699160324c5ccd", null ],
       [ "width", "structxrif__handle.html#af2bbbebf315caa0a2094adf1c0fcb311", null ]
     ] ],
+    [ "Initialization, Setup, and Allocation", "group__xrif__init.html", "group__xrif__init" ],
+    [ "Header Processing", "group__header.html", "group__header" ],
+    [ "Encoding & Decoding", "group__xrif__encode.html", "group__xrif__encode" ],
+    [ "Performance Measurements", "group__xrif__performance.html", "group__xrif__performance" ],
     [ "xrif_t", "group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152", null ]
 ];

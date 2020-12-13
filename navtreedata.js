@@ -23,8 +23,8 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "xrif", "index.html", [
+    [ "User's Guide", "modules.html", "modules" ],
     [ "Todo List", "todo.html", null ],
-    [ "Modules", "modules.html", "modules" ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Structure Index", "classes.html", null ],

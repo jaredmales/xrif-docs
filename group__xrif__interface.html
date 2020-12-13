@@ -83,8 +83,8 @@ $(document).ready(function(){initNavTree('group__xrif__interface.html',''); init
 
 <div class="header">
   <div class="summary">
-<a href="#groups">Modules</a> &#124;
 <a href="#nested-classes">Data Structures</a> &#124;
+<a href="#groups">Modules</a> &#124;
 <a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
 <div class="title">The main xrif library interface</div>  </div>
@@ -93,44 +93,7 @@ $(document).ready(function(){initNavTree('group__xrif__interface.html',''); init
 
 <p>The following code illustrates how the XRIF library is used.  
 <a href="#details">More...</a></p>
-<div class="dynheader">
-Collaboration diagram for The main xrif library interface:</div>
-<div class="dyncontent">
-<div class="center"><img src="group__xrif__interface.png" border="0" usemap="#group____xrif____interface" alt=""/></div>
-<map name="group____xrif____interface" id="group____xrif____interface">
-<area shape="rect" href="group__header.html" title=" " alt="" coords="240,5,383,31"/>
-<area shape="rect" href="group__xrif__performance.html" title=" " alt="" coords="208,55,415,80"/>
-<area shape="rect" href="group__xrif__init.html" title=" " alt="" coords="235,105,387,145"/>
-<area shape="rect" title="The following code illustrates how the XRIF library is used." alt="" coords="5,77,160,117"/>
-<area shape="rect" href="group__xrif__encode.html" title=" " alt="" coords="231,169,391,195"/>
-</map>
-</div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
-Modules</h2></td></tr>
-<tr class="memitem:group__xrif__init"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__init.html">Initialization, Setup, and Allocation</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__header"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__header.html">Header Processing</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__xrif__encode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__encode.html">Encoding &amp; Decoding</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__xrif__performance"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__performance.html">Performance Measurements</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxrif__handle.html">xrif_handle</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The xrif library configuration structure, organizing various parameters used by the functions.  <a href="structxrif__handle.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ga669d368afbcb2c7f59d7bcda7486a152"><td class="memItemLeft" align="right" valign="top"><a id="ga669d368afbcb2c7f59d7bcda7486a152"></a>
-typedef <a class="el" href="structxrif__handle.html">xrif_handle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a></td></tr>
-<tr class="memdesc:ga669d368afbcb2c7f59d7bcda7486a152"><td class="mdescLeft">&#160;</td><td class="mdescRight">The xrif handle pointer type. This provides the main interface to the xrif library. <br /></td></tr>
-<tr class="separator:ga669d368afbcb2c7f59d7bcda7486a152"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<a name="details" id="details"></a><h2 class="groupheader"> </h2>
 <p>The following code illustrates how the XRIF library is used. </p>
 <p>First, create the xrif library handle: </p><div class="fragment"><div class="line"><a class="code" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a> rv;</div>
 <div class="line"><a class="code" href="structxrif__handle.html">xrif_t</a> handle; <span class="comment">//note: this is a pointer type</span></div>
@@ -151,6 +114,43 @@ typedef <a class="el" href="structxrif__handle.html">xrif_handle</a> *&#160;</td
 <p>To start over, use: </p><div class="fragment"><div class="line">rv = <a class="code" href="group__xrif__init.html#gaec8da3f37e809822fc73a3cc08218394">xrif_reset</a>(handle);</div>
 </div><!-- fragment --><p>And when you are done with the handle, it can be fully de-allocated with </p><div class="fragment"><div class="line">rv = <a class="code" href="group__xrif__init.html#ga1db8bc1800b901b9ff43815963a95c0c">xrif_delete</a>(handle);</div>
 </div><!-- fragment --><p> after which the handle should not be used again, unless <code>xrif_new</code> is called on it. </p>
+<div class="dynheader">
+Collaboration diagram for The main xrif library interface:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__xrif__interface.png" border="0" usemap="#group____xrif____interface" alt=""/></div>
+<map name="group____xrif____interface" id="group____xrif____interface">
+<area shape="rect" href="group__header.html" title=" " alt="" coords="240,5,383,31"/>
+<area shape="rect" href="group__xrif__performance.html" title=" " alt="" coords="208,55,415,80"/>
+<area shape="rect" href="group__xrif__init.html" title=" " alt="" coords="235,105,387,145"/>
+<area shape="rect" title="The following code illustrates how the XRIF library is used." alt="" coords="5,77,160,117"/>
+<area shape="rect" href="group__xrif__encode.html" title=" " alt="" coords="231,169,391,195"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxrif__handle.html">xrif_handle</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The xrif library configuration structure, organizing various parameters used by the functions.  <a href="structxrif__handle.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
+Modules</h2></td></tr>
+<tr class="memitem:group__xrif__init"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__init.html">Initialization, Setup, and Allocation</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__header"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__header.html">Header Processing</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__xrif__encode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__encode.html">Encoding &amp; Decoding</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__xrif__performance"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__performance.html">Performance Measurements</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga669d368afbcb2c7f59d7bcda7486a152"><td class="memItemLeft" align="right" valign="top"><a id="ga669d368afbcb2c7f59d7bcda7486a152"></a>
+typedef <a class="el" href="structxrif__handle.html">xrif_handle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a></td></tr>
+<tr class="memdesc:ga669d368afbcb2c7f59d7bcda7486a152"><td class="mdescLeft">&#160;</td><td class="mdescRight">The xrif handle pointer type. This provides the main interface to the xrif library. <br /></td></tr>
+<tr class="separator:ga669d368afbcb2c7f59d7bcda7486a152"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="astructxrif__handle_html_a62f3545614b067d48231fc88b1e12e51"><div class="ttname"><a href="structxrif__handle.html#a62f3545614b067d48231fc88b1e12e51">xrif_handle::compression_ratio</a></div><div class="ttdeci">double compression_ratio</div><div class="ttdoc">The compression ratio, calculated as output-size/input-size.</div><div class="ttdef"><b>Definition:</b> <a href="xrif_8h_source.html#l00347">xrif.h:347</a></div></div>
