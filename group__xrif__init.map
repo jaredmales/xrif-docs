@@ -1,5 +1,5 @@
 <map id="Initialization, Setup, and Allocation" name="Initialization, Setup, and Allocation">
-<area shape="rect" id="node1" href="$group__xrif__init__fine.html" title=" " alt="" coords="408,5,600,45"/>
-<area shape="rect" id="node2" title=" " alt="" coords="208,5,360,45"/>
-<area shape="rect" id="node3" href="$group__xrif__interface.html" title="The following code illustrates how the XRIF library is used." alt="" coords="5,5,160,45"/>
+<area shape="rect" id="node1" href="$group__xrif__init__fine.html" title=" " alt="" coords="396,5,588,45"/>
+<area shape="rect" id="node2" title=" " alt="" coords="196,5,348,45"/>
+<area shape="rect" id="node3" href="$group__xrif__interface.html" title="The top&#45;level interface to the XRIF library." alt="" coords="5,13,148,38"/>
 </map>

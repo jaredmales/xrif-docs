@@ -11,5 +11,5 @@ var searchData=
   ['ts_5funreorder_5fstart_54',['ts_unreorder_start',['../structxrif__handle.html#aafe4aee8b31e2f202dec45406a7ec8c1',1,'xrif_handle']]],
   ['type_5fcode_55',['type_code',['../structxrif__handle.html#a4a2a784032b50e0a92699160324c5ccd',1,'xrif_handle']]],
   ['type_20codes_56',['Type Codes',['../group__typecodes.html',1,'']]],
-  ['the_20main_20xrif_20library_20interface_57',['The main xrif library interface',['../group__xrif__interface.html',1,'']]]
+  ['top_2dlevel_20interface_57',['Top-level interface',['../group__xrif__interface.html',1,'']]]
 ];

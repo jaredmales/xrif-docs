@@ -1,7 +1,7 @@
-<map id="The main xrif library interface" name="The main xrif library interface">
-<area shape="rect" id="node1" href="$group__header.html" title=" " alt="" coords="240,5,383,31"/>
-<area shape="rect" id="node2" href="$group__xrif__performance.html" title=" " alt="" coords="208,55,415,80"/>
-<area shape="rect" id="node3" href="$group__xrif__init.html" title=" " alt="" coords="235,105,387,145"/>
-<area shape="rect" id="node4" title="The following code illustrates how the XRIF library is used." alt="" coords="5,77,160,117"/>
-<area shape="rect" id="node5" href="$group__xrif__encode.html" title=" " alt="" coords="231,169,391,195"/>
+<map id="Top&#45;level interface" name="Top&#45;level interface">
+<area shape="rect" id="node1" href="$group__header.html" title=" " alt="" coords="228,5,371,31"/>
+<area shape="rect" id="node2" href="$group__xrif__performance.html" title=" " alt="" coords="196,55,403,80"/>
+<area shape="rect" id="node3" href="$group__xrif__init.html" title=" " alt="" coords="223,105,375,145"/>
+<area shape="rect" id="node4" title="The top&#45;level interface to the XRIF library." alt="" coords="5,84,148,109"/>
+<area shape="rect" id="node5" href="$group__xrif__encode.html" title=" " alt="" coords="219,169,379,195"/>
 </map>

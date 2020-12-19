@@ -85,7 +85,7 @@ $(document).ready(function(){initNavTree('structxrif__handle.html',''); initResi
   <div class="summary">
 <a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
-<div class="title">xrif_handle Struct Reference<div class="ingroups"><a class="el" href="group__xrif__interface.html">The main xrif library interface</a></div></div>  </div>
+<div class="title">xrif_handle Struct Reference<div class="ingroups"><a class="el" href="group__xrif__interface.html">Top-level interface</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader"> </h2>
@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('structxrif__handle.html',''); initResi
 <p>It is intended that this structure be interacted with via the xrif_t typedef, which is a pointer to <a class="el" href="structxrif__handle.html" title="The xrif library configuration structure, organizing various parameters used by the functions.">xrif_handle</a>. Values of this structure should generally be changed by one of the xrif_set_*() functions, to allow for error checking and consistency. Unless you know what you're doing, of course.</p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>need xrif_set_XXXX function unit tests</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8h_source.html#l00293">293</a> of file <a class="el" href="xrif_8h_source.html">xrif.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8h_source.html#l00295">295</a> of file <a class="el" href="xrif_8h_source.html">xrif.h</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="xrif_8h_source.html">xrif.h</a>&gt;</code></p>
 <table class="memberdecls">
@@ -275,7 +275,7 @@ struct timespec&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 <p>The size of the compressed_buffer pointer. In principle should be at least LZ4_compressBound(width*height*depth*frames*data_size) in size, but this is not a strict requirement in practice for most streams. It must be at least width*height*depth*frames*data_size. <br  />
  If this library is used to allocate it, it will be the larger of the two. </p>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8h_source.html#l00337">337</a> of file <a class="el" href="xrif_8h_source.html">xrif.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8h_source.html#l00339">339</a> of file <a class="el" href="xrif_8h_source.html">xrif.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="group__xrif__init__fine.html#gafea3fddc2aeaa3ff7987a811988d5490">xrif_allocate_compressed()</a>, <a class="el" href="group__xrif__compress.html#ga959501dcd97c02e7a3832ad6c02dcae7">xrif_compress_lz4()</a>, <a class="el" href="group__xrif__compress.html#gaa2312489a7c6317bdf4906856d6ae514">xrif_compress_none()</a>, and <a class="el" href="group__xrif__init__fine.html#ga415ccad9f0738c17df65fabdc66a1bdc">xrif_set_compressed()</a>.</p>
 
@@ -294,7 +294,7 @@ struct timespec&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 </div><div class="memdoc">
 <p>Number of threads to use if omp_parallel is 1. For this to be meaningful, XRIF_NO_OMP must NOT be defined at compile time, and XRIF_OMP_NUMTHREADS must be defined at compile time. Default is 1. </p>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8h_source.html#l00318">318</a> of file <a class="el" href="xrif_8h_source.html">xrif.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8h_source.html#l00320">320</a> of file <a class="el" href="xrif_8h_source.html">xrif.h</a>.</p>
 
 </div>
 </div>
@@ -311,7 +311,7 @@ struct timespec&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 </div><div class="memdoc">
 <p>Flag controlling whether OMP parallelization is used to speed up. This has no effect if XRIF_NO_OMP is defined at compile time, which completely removes OMP code. Default is 0. </p>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8h_source.html#l00315">315</a> of file <a class="el" href="xrif_8h_source.html">xrif.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8h_source.html#l00317">317</a> of file <a class="el" href="xrif_8h_source.html">xrif.h</a>.</p>
 
 </div>
 </div>
@@ -330,7 +330,7 @@ struct timespec&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 <p>Flag (true/false) indicating whether the compressed_buffer pointer is managed by this handle. </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>need reordered_buffer_minsize; ///&lt; The minimum size of the reordered buffer for the image parameters. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8h_source.html#l00335">335</a> of file <a class="el" href="xrif_8h_source.html">xrif.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8h_source.html#l00337">337</a> of file <a class="el" href="xrif_8h_source.html">xrif.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="group__xrif__init__fine.html#gafea3fddc2aeaa3ff7987a811988d5490">xrif_allocate_compressed()</a>, <a class="el" href="group__xrif__init.html#gaec8da3f37e809822fc73a3cc08218394">xrif_reset()</a>, and <a class="el" href="group__xrif__init__fine.html#ga415ccad9f0738c17df65fabdc66a1bdc">xrif_set_compressed()</a>.</p>
 
@@ -349,7 +349,7 @@ struct timespec&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 </div><div class="memdoc">
 <p>The size of the raw_buffer pointer. If <code>compress_on_raw</code> is false, then this must be at least width*height*depth*frames*data_size. If <code>compress_on_raw</code> is true, this should be at least LZ4_compressBound(width*height*depth*frames*data_size) in size, but this is not a strict requirement in practice for most streams. If this library is used to allocate it, it will be the larger of the two possibilities. </p>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8h_source.html#l00325">325</a> of file <a class="el" href="xrif_8h_source.html">xrif.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8h_source.html#l00327">327</a> of file <a class="el" href="xrif_8h_source.html">xrif.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="group__xrif__init__fine.html#ga9545cb376fb9d4bac3805018fd9abf4a">xrif_allocate_raw()</a>, <a class="el" href="group__xrif__compress.html#ga959501dcd97c02e7a3832ad6c02dcae7">xrif_compress_lz4()</a>, <a class="el" href="group__xrif__compress.html#gaa2312489a7c6317bdf4906856d6ae514">xrif_compress_none()</a>, <a class="el" href="group__xrif__reorder__none.html#gaf33827d2667f93e79d3e4a44ea467d69">xrif_reorder_none()</a>, <a class="el" href="group__xrif__init__fine.html#gad6b1d28e31892aa57365d9848abbd0dd">xrif_set_raw()</a>, and <a class="el" href="group__xrif__reorder__none.html#ga28fef0098fa8327d83c0b5378a8cf4a9">xrif_unreorder_none()</a>.</p>
 
@@ -368,7 +368,7 @@ struct timespec&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 </div><div class="memdoc">
 <p>The size of the reordered_buffer pointer. It must be at least width*height*depth*frames*data_size. </p>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8h_source.html#l00331">331</a> of file <a class="el" href="xrif_8h_source.html">xrif.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8h_source.html#l00333">333</a> of file <a class="el" href="xrif_8h_source.html">xrif.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="group__xrif__init__fine.html#ga1f767b47f2286a15fa7302faf109b8b7">xrif_allocate_reordered()</a>, <a class="el" href="group__xrif__compress.html#ga959501dcd97c02e7a3832ad6c02dcae7">xrif_compress_lz4()</a>, <a class="el" href="group__xrif__compress.html#gaa2312489a7c6317bdf4906856d6ae514">xrif_compress_none()</a>, <a class="el" href="group__xrif__compress.html#gac3cd6a902bfaa63539073d6e088dac51">xrif_decompress_lz4()</a>, <a class="el" href="group__xrif__compress.html#ga91477a55d790b043027dbcb4895fdd0d">xrif_decompress_none()</a>, <a class="el" href="group__xrif__reorder__none.html#gaf33827d2667f93e79d3e4a44ea467d69">xrif_reorder_none()</a>, <a class="el" href="group__xrif__init__fine.html#gafafd5a1e028ac8fa4ccafbebbcd9cf7e">xrif_set_reordered()</a>, and <a class="el" href="group__xrif__reorder__none.html#ga28fef0098fa8327d83c0b5378a8cf4a9">xrif_unreorder_none()</a>.</p>
 
