@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['utilities_293',['Utilities',['../group__xrif__utils.html',1,'']]]
+  ['reordering_298',['Reordering',['../group__xrif__reorder.html',1,'']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['header_20processing_23',['Header Processing',['../group__header.html',1,'']]],
-  ['height_24',['height',['../structxrif__handle.html#a19f5a4b323189549f3213dd94efb2f10',1,'xrif_handle']]]
+  ['frames_21',['frames',['../structxrif__handle.html#a52b318708922cad601a1ff958bcfd2fd',1,'xrif_handle']]],
+  ['first_20differencing_22',['First Differencing',['../group__xrif__diff__first.html',1,'']]],
+  ['fine_2dgrained_20initialization_2c_20setup_2c_20and_20allocation_23',['Fine-grained Initialization, Setup, and Allocation',['../group__xrif__init__fine.html',1,'']]]
 ];

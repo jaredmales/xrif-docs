@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['pixel_20differencing_287',['Pixel Differencing',['../group__xrif__diff__pixel.html',1,'']]],
-  ['previous_20differencing_288',['Previous Differencing',['../group__xrif__diff__previous.html',1,'']]],
-  ['performance_20measurements_289',['Performance Measurements',['../group__xrif__performance.html',1,'']]]
+  ['initialization_2c_20setup_2c_20and_20allocation_293',['Initialization, Setup, and Allocation',['../group__xrif__init.html',1,'']]]
 ];

@@ -83,6 +83,7 @@ $(document).ready(function(){initNavTree('group__xrif__reorder.html',''); initRe
 
 <div class="header">
   <div class="summary">
+<a href="#groups">Modules</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Reordering<div class="ingroups"><a class="el" href="group__xrif__interface.html">The main xrif library interface</a> &raquo; <a class="el" href="group__xrif__encode.html">Encoding &amp; Decoding</a></div></div>  </div>
@@ -94,11 +95,20 @@ Collaboration diagram for Reordering:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__xrif__reorder.png" border="0" usemap="#group____xrif____reorder" alt=""/></div>
 <map name="group____xrif____reorder" id="group____xrif____reorder">
-<area shape="rect" title=" " alt="" coords="213,5,307,31"/>
-<area shape="rect" href="group__xrif__encode.html" title=" " alt="" coords="5,5,165,31"/>
+<area shape="rect" title=" " alt="" coords="213,31,307,56"/>
+<area shape="rect" href="group__xrif__reorder__bytepack.html" title=" " alt="" coords="355,5,509,31"/>
+<area shape="rect" href="group__xrif__reorder__none.html" title=" " alt="" coords="377,55,487,80"/>
+<area shape="rect" href="group__xrif__encode.html" title=" " alt="" coords="5,31,165,56"/>
 </map>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
+Modules</h2></td></tr>
+<tr class="memitem:group__xrif__reorder__none"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__reorder__none.html">No reordering</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__xrif__reorder__bytepack"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__reorder__bytepack.html">Bytepack reordering</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga3aa2ed64b67e0f4b0c06e11b19951cb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__reorder.html#ga3aa2ed64b67e0f4b0c06e11b19951cb2">xrif_reorder</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
@@ -107,28 +117,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga831138aae3e56b552aa38cbc2ea2f468"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__reorder.html#ga831138aae3e56b552aa38cbc2ea2f468">xrif_unreorder</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
 <tr class="memdesc:ga831138aae3e56b552aa38cbc2ea2f468"><td class="mdescLeft">&#160;</td><td class="mdescRight">Un-reorder the data using the method specified by <code>reorder_method</code>  <a href="group__xrif__reorder.html#ga831138aae3e56b552aa38cbc2ea2f468">More...</a><br /></td></tr>
 <tr class="separator:ga831138aae3e56b552aa38cbc2ea2f468"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf33827d2667f93e79d3e4a44ea467d69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__reorder.html#gaf33827d2667f93e79d3e4a44ea467d69">xrif_reorder_none</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
-<tr class="memdesc:gaf33827d2667f93e79d3e4a44ea467d69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform no re-ordering, simply copy raw to reordered.  <a href="group__xrif__reorder.html#gaf33827d2667f93e79d3e4a44ea467d69">More...</a><br /></td></tr>
-<tr class="separator:gaf33827d2667f93e79d3e4a44ea467d69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga697b52722f328fe2cda38458c31540bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__reorder.html#ga697b52722f328fe2cda38458c31540bd">xrif_reorder_bytepack</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
-<tr class="separator:ga697b52722f328fe2cda38458c31540bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga33343c26a9b928522b97c6312003cce1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__reorder.html#ga33343c26a9b928522b97c6312003cce1">xrif_reorder_bytepack_renibble</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
-<tr class="separator:ga33343c26a9b928522b97c6312003cce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeb096322a38b7177054e9e28bbc71788"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__reorder.html#gaeb096322a38b7177054e9e28bbc71788">xrif_reorder_bytepack_renibble_sint16</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
-<tr class="separator:gaeb096322a38b7177054e9e28bbc71788"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga58d3ceabd7fe569811a843eaebb68164"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__reorder.html#ga58d3ceabd7fe569811a843eaebb68164">xrif_reorder_bitpack</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
-<tr class="separator:ga58d3ceabd7fe569811a843eaebb68164"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9281a5728c36c05ce36ed27ba2920993"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__reorder.html#ga9281a5728c36c05ce36ed27ba2920993">xrif_reorder_bitpack_sint16</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
-<tr class="separator:ga9281a5728c36c05ce36ed27ba2920993"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga28fef0098fa8327d83c0b5378a8cf4a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__reorder.html#ga28fef0098fa8327d83c0b5378a8cf4a9">xrif_unreorder_none</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
-<tr class="memdesc:ga28fef0098fa8327d83c0b5378a8cf4a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform no un-re-ordering, simply copy reordered to raw.  <a href="group__xrif__reorder.html#ga28fef0098fa8327d83c0b5378a8cf4a9">More...</a><br /></td></tr>
-<tr class="separator:ga28fef0098fa8327d83c0b5378a8cf4a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga544817afc497e5d2bc57fce7e75197ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__reorder.html#ga544817afc497e5d2bc57fce7e75197ff">xrif_unreorder_bytepack</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
-<tr class="separator:ga544817afc497e5d2bc57fce7e75197ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga64b059bdc6f619906c7bcd4cbae14746"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__reorder.html#ga64b059bdc6f619906c7bcd4cbae14746">xrif_unreorder_bytepack_renibble</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
-<tr class="separator:ga64b059bdc6f619906c7bcd4cbae14746"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad0c90b05ef200a468dbaf7d493947b67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__reorder.html#gad0c90b05ef200a468dbaf7d493947b67">xrif_unreorder_bitpack</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
-<tr class="separator:gad0c90b05ef200a468dbaf7d493947b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga3aa2ed64b67e0f4b0c06e11b19951cb2"></a>
@@ -158,174 +146,9 @@ an error code on an error. </dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01487">1487</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01495">1495</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#ad4b3e7e9d3a045b5c06189836590f9b0">xrif_handle::reorder_method</a>.</p>
-
-</div>
-</div>
-<a id="ga58d3ceabd7fe569811a843eaebb68164"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga58d3ceabd7fe569811a843eaebb68164">&#9670;&nbsp;</a></span>xrif_reorder_bitpack()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a> xrif_reorder_bitpack </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a>&#160;</td>
-          <td class="paramname"><em>handle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>xrif_reorder_bitpack needs a size check </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01735">1735</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
-
-<p class="reference">References <a class="el" href="structxrif__handle.html#ad4598b2ff9bc32b636fb9ccb3f8e6477">xrif_handle::difference_method</a>.</p>
-
-</div>
-</div>
-<a id="ga9281a5728c36c05ce36ed27ba2920993"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9281a5728c36c05ce36ed27ba2920993">&#9670;&nbsp;</a></span>xrif_reorder_bitpack_sint16()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a> xrif_reorder_bitpack_sint16 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a>&#160;</td>
-          <td class="paramname"><em>handle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ga697b52722f328fe2cda38458c31540bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga697b52722f328fe2cda38458c31540bd">&#9670;&nbsp;</a></span>xrif_reorder_bytepack()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a> xrif_reorder_bytepack </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a>&#160;</td>
-          <td class="paramname"><em>handle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>this can be just the extra pixels </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01560">1560</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
-
-<p class="reference">References <a class="el" href="structxrif__handle.html#ad4598b2ff9bc32b636fb9ccb3f8e6477">xrif_handle::difference_method</a>.</p>
-
-</div>
-</div>
-<a id="ga33343c26a9b928522b97c6312003cce1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga33343c26a9b928522b97c6312003cce1">&#9670;&nbsp;</a></span>xrif_reorder_bytepack_renibble()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a> xrif_reorder_bytepack_renibble </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a>&#160;</td>
-          <td class="paramname"><em>handle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>this can be just the extra pixels </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01629">1629</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
-
-<p class="reference">References <a class="el" href="structxrif__handle.html#ad4598b2ff9bc32b636fb9ccb3f8e6477">xrif_handle::difference_method</a>.</p>
-
-</div>
-</div>
-<a id="gaeb096322a38b7177054e9e28bbc71788"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaeb096322a38b7177054e9e28bbc71788">&#9670;&nbsp;</a></span>xrif_reorder_bytepack_renibble_sint16()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a> xrif_reorder_bytepack_renibble_sint16 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a>&#160;</td>
-          <td class="paramname"><em>handle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="gaf33827d2667f93e79d3e4a44ea467d69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf33827d2667f93e79d3e4a44ea467d69">&#9670;&nbsp;</a></span>xrif_reorder_none()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a> xrif_reorder_none </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a>&#160;</td>
-          <td class="paramname"><em>handle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Perform no re-ordering, simply copy raw to reordered. </p>
-<p>Also zeroes any excess in <a class="el" href="structxrif__handle.html#ac19fd52d365d02f805fb92598412c022" title="The reordered buffer pointer, contains the reordered data.">xrif_handle::reordered_buffer</a>.</p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a> on success </dd>
-<dd>
-<a class="el" href="group__error__codes.html#gafaf2fa6ad29b00fa8a91d5a151a14b35">XRIF_ERROR_NULLPTR</a> if handle is null. </dd>
-<dd>
-<a class="el" href="group__error__codes.html#gaf2a83bf4549ecd126f9baf71759a8011">XRIF_ERROR_INSUFFICIENT_SIZE</a> if allocated buffers aren't big enough </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01530">1530</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
-
-<p class="reference">References <a class="el" href="structxrif__handle.html#add9a832cb2e842004f24bb3eec5195a9">xrif_handle::data_size</a>, <a class="el" href="structxrif__handle.html#a6fe7493a58319fc496b82e10b49c0443">xrif_handle::depth</a>, <a class="el" href="structxrif__handle.html#a52b318708922cad601a1ff958bcfd2fd">xrif_handle::frames</a>, <a class="el" href="structxrif__handle.html#a19f5a4b323189549f3213dd94efb2f10">xrif_handle::height</a>, <a class="el" href="structxrif__handle.html#acefc822b1932287817fa6dcda7f07c90">xrif_handle::raw_buffer</a>, <a class="el" href="structxrif__handle.html#a489a8131ea1359f183043c0ae3016a16">xrif_handle::raw_buffer_size</a>, <a class="el" href="structxrif__handle.html#ac19fd52d365d02f805fb92598412c022">xrif_handle::reordered_buffer</a>, <a class="el" href="structxrif__handle.html#aec6ab9a506e4e7463e9ed37f52084ab8">xrif_handle::reordered_buffer_size</a>, <a class="el" href="structxrif__handle.html#af2bbbebf315caa0a2094adf1c0fcb311">xrif_handle::width</a>, <a class="el" href="group__error__codes.html#gaf2a83bf4549ecd126f9baf71759a8011">XRIF_ERROR_INSUFFICIENT_SIZE</a>, <a class="el" href="group__error__codes.html#gafaf2fa6ad29b00fa8a91d5a151a14b35">XRIF_ERROR_NULLPTR</a>, and <a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a>.</p>
 
 </div>
 </div>
@@ -356,129 +179,9 @@ an error code on an error. </dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01508">1508</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01516">1516</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#ad4b3e7e9d3a045b5c06189836590f9b0">xrif_handle::reorder_method</a>.</p>
-
-</div>
-</div>
-<a id="gad0c90b05ef200a468dbaf7d493947b67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad0c90b05ef200a468dbaf7d493947b67">&#9670;&nbsp;</a></span>xrif_unreorder_bitpack()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a> xrif_unreorder_bitpack </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a>&#160;</td>
-          <td class="paramname"><em>handle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01996">1996</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
-
-<p class="reference">References <a class="el" href="structxrif__handle.html#ad4598b2ff9bc32b636fb9ccb3f8e6477">xrif_handle::difference_method</a>.</p>
-
-</div>
-</div>
-<a id="ga544817afc497e5d2bc57fce7e75197ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga544817afc497e5d2bc57fce7e75197ff">&#9670;&nbsp;</a></span>xrif_unreorder_bytepack()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a> xrif_unreorder_bytepack </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a>&#160;</td>
-          <td class="paramname"><em>handle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01864">1864</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
-
-<p class="reference">References <a class="el" href="structxrif__handle.html#ad4598b2ff9bc32b636fb9ccb3f8e6477">xrif_handle::difference_method</a>.</p>
-
-</div>
-</div>
-<a id="ga64b059bdc6f619906c7bcd4cbae14746"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga64b059bdc6f619906c7bcd4cbae14746">&#9670;&nbsp;</a></span>xrif_unreorder_bytepack_renibble()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a> xrif_unreorder_bytepack_renibble </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a>&#160;</td>
-          <td class="paramname"><em>handle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01918">1918</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
-
-<p class="reference">References <a class="el" href="structxrif__handle.html#ad4598b2ff9bc32b636fb9ccb3f8e6477">xrif_handle::difference_method</a>.</p>
-
-</div>
-</div>
-<a id="ga28fef0098fa8327d83c0b5378a8cf4a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga28fef0098fa8327d83c0b5378a8cf4a9">&#9670;&nbsp;</a></span>xrif_unreorder_none()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a> xrif_unreorder_none </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a>&#160;</td>
-          <td class="paramname"><em>handle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Perform no un-re-ordering, simply copy reordered to raw. </p>
-<p>Also zeroes any excess in <a class="el" href="structxrif__handle.html#acefc822b1932287817fa6dcda7f07c90" title="The raw buffer pointer, contains the image data, and if compress_on_raw == true the compressed data.">xrif_handle::raw_buffer</a>.</p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a> on success </dd>
-<dd>
-<a class="el" href="group__error__codes.html#gafaf2fa6ad29b00fa8a91d5a151a14b35">XRIF_ERROR_NULLPTR</a> if handle is null. </dd>
-<dd>
-<a class="el" href="group__error__codes.html#gaf2a83bf4549ecd126f9baf71759a8011">XRIF_ERROR_INSUFFICIENT_SIZE</a> if allocated buffers aren't big enough </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01834">1834</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
-
-<p class="reference">References <a class="el" href="structxrif__handle.html#add9a832cb2e842004f24bb3eec5195a9">xrif_handle::data_size</a>, <a class="el" href="structxrif__handle.html#a6fe7493a58319fc496b82e10b49c0443">xrif_handle::depth</a>, <a class="el" href="structxrif__handle.html#a52b318708922cad601a1ff958bcfd2fd">xrif_handle::frames</a>, <a class="el" href="structxrif__handle.html#a19f5a4b323189549f3213dd94efb2f10">xrif_handle::height</a>, <a class="el" href="structxrif__handle.html#acefc822b1932287817fa6dcda7f07c90">xrif_handle::raw_buffer</a>, <a class="el" href="structxrif__handle.html#a489a8131ea1359f183043c0ae3016a16">xrif_handle::raw_buffer_size</a>, <a class="el" href="structxrif__handle.html#ac19fd52d365d02f805fb92598412c022">xrif_handle::reordered_buffer</a>, <a class="el" href="structxrif__handle.html#aec6ab9a506e4e7463e9ed37f52084ab8">xrif_handle::reordered_buffer_size</a>, <a class="el" href="structxrif__handle.html#af2bbbebf315caa0a2094adf1c0fcb311">xrif_handle::width</a>, <a class="el" href="group__error__codes.html#gaf2a83bf4549ecd126f9baf71759a8011">XRIF_ERROR_INSUFFICIENT_SIZE</a>, <a class="el" href="group__error__codes.html#gafaf2fa6ad29b00fa8a91d5a151a14b35">XRIF_ERROR_NULLPTR</a>, and <a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a>.</p>
 
 </div>
 </div>

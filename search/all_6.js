@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lz4_5facceleration_26',['lz4_acceleration',['../structxrif__handle.html#aab7cc3e598e3f57f3d905f620d1caca8',1,'xrif_handle']]]
+  ['initialization_2c_20setup_2c_20and_20allocation_26',['Initialization, Setup, and Allocation',['../group__xrif__init.html',1,'']]]
 ];
