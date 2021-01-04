@@ -5,6 +5,7 @@ var group__error__codes =
     [ "XRIF_ERROR_INSUFFICIENT_SIZE", "group__error__codes.html#gaf2a83bf4549ecd126f9baf71759a8011", null ],
     [ "XRIF_ERROR_INVALID_SIZE", "group__error__codes.html#ga421e0dad6f4aacd19402639bebe112a8", null ],
     [ "XRIF_ERROR_INVALID_TYPE", "group__error__codes.html#ga8e3edc829a602adf010f1db22868031e", null ],
+    [ "XRIF_ERROR_LIBERR", "group__error__codes.html#ga7357be37932c0acab63cbca0b4090bce", null ],
     [ "XRIF_ERROR_MALLOC", "group__error__codes.html#gadf5cc3a54e0be2cad025cec76927287e", null ],
     [ "XRIF_ERROR_NOT_SETUP", "group__error__codes.html#gae19df7e024f92245a47d0396c241dda9", null ],
     [ "XRIF_ERROR_NOTIMPL", "group__error__codes.html#ga5ab4a9b7ffecdf203dd2fe8208a77513", null ],

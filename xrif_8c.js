@@ -33,6 +33,7 @@ var xrif_8c =
     [ "xrif_decompress_lz4", "group__xrif__compress.html#gac3cd6a902bfaa63539073d6e088dac51", null ],
     [ "xrif_decompress_none", "group__xrif__compress.html#ga91477a55d790b043027dbcb4895fdd0d", null ],
     [ "xrif_delete", "group__xrif__init.html#ga1db8bc1800b901b9ff43815963a95c0c", null ],
+    [ "xrif_depth", "group__access.html#gacf84f27f16876b71305e37cb114899e6", null ],
     [ "xrif_difference", "group__xrif__diff.html#ga540719d5b8ea93261f62b93fafc9c2f7", null ],
     [ "xrif_difference_first_sint16", "group__xrif__diff__first.html#ga341a822bcc782ffadc55a1e1a9785ff0", null ],
     [ "xrif_difference_first_uint64", "group__xrif__diff__first.html#gab0f14d43a85e938146371f5944ee42df", null ],
@@ -48,6 +49,8 @@ var xrif_8c =
     [ "xrif_encode", "group__xrif__encode.html#gab46bd92666001b60f18e50bf31cbf0a6", null ],
     [ "xrif_encode_rate", "group__xrif__performance.html#ga02584c2fd195d913737ecbe3b397c278", null ],
     [ "xrif_encode_time", "group__xrif__performance.html#gaa91eeb05142204b157523b00ec73394f", null ],
+    [ "xrif_frames", "group__access.html#ga98a4d8d5597faec87e7d1d71b9ad9176", null ],
+    [ "xrif_height", "group__access.html#gaaa2adfdea300d998c893fe5d9a28c304", null ],
     [ "xrif_initialize_handle", "group__xrif__init__fine.html#gac857c8395aef9880f1e4744884cfc2b2", null ],
     [ "xrif_min_compressed_size", "group__xrif__init__fine.html#ga9ef58f09352c40eaa1a371607fd0db8f", null ],
     [ "xrif_min_raw_size", "group__xrif__init__fine.html#gaf0c24bb97d8ccf7e1d70793c0ffa8298", null ],
@@ -67,6 +70,7 @@ var xrif_8c =
     [ "xrif_set_compress_method", "group__xrif__init__fine.html#gadf3610d807ed4e8d7a9873a0972fa1e6", null ],
     [ "xrif_set_compressed", "group__xrif__init__fine.html#ga415ccad9f0738c17df65fabdc66a1bdc", null ],
     [ "xrif_set_difference_method", "group__xrif__init__fine.html#ga40869f20d8deeb78184b6d9413bfadae", null ],
+    [ "xrif_set_lz4_acceleration", "group__xrif__init__fine.html#gaa6876e648d5067b72b0ecc0e8833bcd6", null ],
     [ "xrif_set_raw", "group__xrif__init__fine.html#gad6b1d28e31892aa57365d9848abbd0dd", null ],
     [ "xrif_set_reorder_method", "group__xrif__init__fine.html#gac23547c83546d841dd2976a28bde3b48", null ],
     [ "xrif_set_reordered", "group__xrif__init__fine.html#gafafd5a1e028ac8fa4ccafbebbcd9cf7e", null ],
@@ -85,5 +89,6 @@ var xrif_8c =
     [ "xrif_unreorder_bytepack_renibble", "xrif_8c.html#a64b059bdc6f619906c7bcd4cbae14746", null ],
     [ "xrif_unreorder_bytepack_sint16", "group__xrif__reorder__bytepack.html#ga2eb31799c4da01e9c4daf2f9515111c2", null ],
     [ "xrif_unreorder_none", "group__xrif__reorder__none.html#ga28fef0098fa8327d83c0b5378a8cf4a9", null ],
+    [ "xrif_width", "group__access.html#ga46476d1ed9ed10fdd47c1b13fc852863", null ],
     [ "xrif_write_header", "group__header.html#gab728ae563337fe19e17b46d731c0198c", null ]
 ];

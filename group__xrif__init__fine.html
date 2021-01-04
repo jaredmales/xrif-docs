@@ -113,6 +113,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gadf3610d807ed4e8d7a9873a0972fa1e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__init__fine.html#gadf3610d807ed4e8d7a9873a0972fa1e6">xrif_set_compress_method</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle, int compress_method)</td></tr>
 <tr class="memdesc:gadf3610d807ed4e8d7a9873a0972fa1e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the compress method.  <a href="group__xrif__init__fine.html#gadf3610d807ed4e8d7a9873a0972fa1e6">More...</a><br /></td></tr>
 <tr class="separator:gadf3610d807ed4e8d7a9873a0972fa1e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa6876e648d5067b72b0ecc0e8833bcd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__init__fine.html#gaa6876e648d5067b72b0ecc0e8833bcd6">xrif_set_lz4_acceleration</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle, int32_t lz4_accel)</td></tr>
+<tr class="memdesc:gaa6876e648d5067b72b0ecc0e8833bcd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the LZ4 acceleration parameter.  <a href="group__xrif__init__fine.html#gaa6876e648d5067b72b0ecc0e8833bcd6">More...</a><br /></td></tr>
+<tr class="separator:gaa6876e648d5067b72b0ecc0e8833bcd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf0c24bb97d8ccf7e1d70793c0ffa8298"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__init__fine.html#gaf0c24bb97d8ccf7e1d70793c0ffa8298">xrif_min_raw_size</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
 <tr class="memdesc:gaf0c24bb97d8ccf7e1d70793c0ffa8298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the minimum size of the raw buffer.  <a href="group__xrif__init__fine.html#gaf0c24bb97d8ccf7e1d70793c0ffa8298">More...</a><br /></td></tr>
 <tr class="separator:gaf0c24bb97d8ccf7e1d70793c0ffa8298"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,7 +178,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00730">730</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00760">760</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#aee20fd82b5f0721ff4e3303e25db1546">xrif_handle::compressed_buffer</a>, <a class="el" href="structxrif__handle.html#a8510e35db561c4659a27004cc5ffa572">xrif_handle::compressed_buffer_size</a>, <a class="el" href="structxrif__handle.html#add9a832cb2e842004f24bb3eec5195a9">xrif_handle::data_size</a>, <a class="el" href="structxrif__handle.html#a6fe7493a58319fc496b82e10b49c0443">xrif_handle::depth</a>, <a class="el" href="structxrif__handle.html#a52b318708922cad601a1ff958bcfd2fd">xrif_handle::frames</a>, <a class="el" href="structxrif__handle.html#a19f5a4b323189549f3213dd94efb2f10">xrif_handle::height</a>, <a class="el" href="structxrif__handle.html#a233060c3f2e492ab2c4474084c90e115">xrif_handle::own_compressed</a>, <a class="el" href="structxrif__handle.html#af2bbbebf315caa0a2094adf1c0fcb311">xrif_handle::width</a>, <a class="el" href="group__error__codes.html#ga421e0dad6f4aacd19402639bebe112a8">XRIF_ERROR_INVALID_SIZE</a>, <a class="el" href="group__error__codes.html#gadf5cc3a54e0be2cad025cec76927287e">XRIF_ERROR_MALLOC</a>, <a class="el" href="group__error__codes.html#gae19df7e024f92245a47d0396c241dda9">XRIF_ERROR_NOT_SETUP</a>, <a class="el" href="group__error__codes.html#gafaf2fa6ad29b00fa8a91d5a151a14b35">XRIF_ERROR_NULLPTR</a>, <a class="el" href="group__error__codes.html#ga2e8f4fc39ebed930506b14a4f2cb7637">XRIF_ERROR_PRINT</a>, <a class="el" href="group__xrif__init__fine.html#ga9ef58f09352c40eaa1a371607fd0db8f">xrif_min_compressed_size()</a>, and <a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a>.</p>
 
@@ -218,7 +221,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00554">554</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00584">584</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#add9a832cb2e842004f24bb3eec5195a9">xrif_handle::data_size</a>, <a class="el" href="structxrif__handle.html#a6fe7493a58319fc496b82e10b49c0443">xrif_handle::depth</a>, <a class="el" href="structxrif__handle.html#a52b318708922cad601a1ff958bcfd2fd">xrif_handle::frames</a>, <a class="el" href="structxrif__handle.html#a19f5a4b323189549f3213dd94efb2f10">xrif_handle::height</a>, <a class="el" href="structxrif__handle.html#a07a35747cca99e4da17bce0cda3237d2">xrif_handle::own_raw</a>, <a class="el" href="structxrif__handle.html#acefc822b1932287817fa6dcda7f07c90">xrif_handle::raw_buffer</a>, <a class="el" href="structxrif__handle.html#a489a8131ea1359f183043c0ae3016a16">xrif_handle::raw_buffer_size</a>, <a class="el" href="structxrif__handle.html#af2bbbebf315caa0a2094adf1c0fcb311">xrif_handle::width</a>, <a class="el" href="group__error__codes.html#ga421e0dad6f4aacd19402639bebe112a8">XRIF_ERROR_INVALID_SIZE</a>, <a class="el" href="group__error__codes.html#gadf5cc3a54e0be2cad025cec76927287e">XRIF_ERROR_MALLOC</a>, <a class="el" href="group__error__codes.html#gae19df7e024f92245a47d0396c241dda9">XRIF_ERROR_NOT_SETUP</a>, <a class="el" href="group__error__codes.html#gafaf2fa6ad29b00fa8a91d5a151a14b35">XRIF_ERROR_NULLPTR</a>, <a class="el" href="group__error__codes.html#ga2e8f4fc39ebed930506b14a4f2cb7637">XRIF_ERROR_PRINT</a>, <a class="el" href="group__xrif__init__fine.html#gaf0c24bb97d8ccf7e1d70793c0ffa8298">xrif_min_raw_size()</a>, and <a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a>.</p>
 
@@ -259,7 +262,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00643">643</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00673">673</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#add9a832cb2e842004f24bb3eec5195a9">xrif_handle::data_size</a>, <a class="el" href="structxrif__handle.html#a6fe7493a58319fc496b82e10b49c0443">xrif_handle::depth</a>, <a class="el" href="structxrif__handle.html#a52b318708922cad601a1ff958bcfd2fd">xrif_handle::frames</a>, <a class="el" href="structxrif__handle.html#a19f5a4b323189549f3213dd94efb2f10">xrif_handle::height</a>, <a class="el" href="structxrif__handle.html#a06a8c3effe3c894f2c262f8480b5d6f4">xrif_handle::own_reordered</a>, <a class="el" href="structxrif__handle.html#ac19fd52d365d02f805fb92598412c022">xrif_handle::reordered_buffer</a>, <a class="el" href="structxrif__handle.html#aec6ab9a506e4e7463e9ed37f52084ab8">xrif_handle::reordered_buffer_size</a>, <a class="el" href="structxrif__handle.html#af2bbbebf315caa0a2094adf1c0fcb311">xrif_handle::width</a>, <a class="el" href="group__error__codes.html#ga421e0dad6f4aacd19402639bebe112a8">XRIF_ERROR_INVALID_SIZE</a>, <a class="el" href="group__error__codes.html#gadf5cc3a54e0be2cad025cec76927287e">XRIF_ERROR_MALLOC</a>, <a class="el" href="group__error__codes.html#gae19df7e024f92245a47d0396c241dda9">XRIF_ERROR_NOT_SETUP</a>, <a class="el" href="group__error__codes.html#gafaf2fa6ad29b00fa8a91d5a151a14b35">XRIF_ERROR_NULLPTR</a>, <a class="el" href="group__error__codes.html#ga2e8f4fc39ebed930506b14a4f2cb7637">XRIF_ERROR_PRINT</a>, <a class="el" href="group__xrif__init__fine.html#gaa20732e11921fa49e1477fcf88ee9d52">xrif_min_reordered_size()</a>, and <a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a>.</p>
 
@@ -288,7 +291,10 @@ Functions</h2></td></tr>
 <p>In general this should not be called independently, rather you should use xrif_new. If you do, this function must only be called on an xrif handle which does not already have memory alocated &ndash; otherwise memory leaks will occur!</p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__error__codes.html#gafaf2fa6ad29b00fa8a91d5a151a14b35">XRIF_ERROR_NULLPTR</a> if handle is NULL. </dd>
 <dd>
-<a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a> on success </dd></dl>
+<a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a> on success</dd></dl>
+<dl class="test"><dt><b><a class="el" href="test.html#_test000001">Test:</a></b></dt><dd><p class="startdd">Verify handle initialization. <a class="el" href="xrif__test__init_8c.html#tests_initialize_handle_noerror">[test doc]</a> </p>
+<p class="enddd">Verify xrif_initialize_handle returns error on NULL pointer. <a class="el" href="xrif__test__init_8c.html#tests_initialize_handle_nullptr">[test doc]</a> </p>
+</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">handle</td><td>[out] the xrif handle to initialize </td></tr>
@@ -300,7 +306,7 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#a6c813a8ae1cc1ca406593667ebcc5566">xrif_handle::compressed_size</a>, <a class="el" href="structxrif__handle.html#add9a832cb2e842004f24bb3eec5195a9">xrif_handle::data_size</a>, <a class="el" href="structxrif__handle.html#a6fe7493a58319fc496b82e10b49c0443">xrif_handle::depth</a>, <a class="el" href="structxrif__handle.html#ad4598b2ff9bc32b636fb9ccb3f8e6477">xrif_handle::difference_method</a>, <a class="el" href="structxrif__handle.html#a52b318708922cad601a1ff958bcfd2fd">xrif_handle::frames</a>, <a class="el" href="structxrif__handle.html#a19f5a4b323189549f3213dd94efb2f10">xrif_handle::height</a>, <a class="el" href="structxrif__handle.html#aac0f48e7f8a0058ed59bf4c27b6ae539">xrif_handle::raw_size</a>, <a class="el" href="structxrif__handle.html#a4a2a784032b50e0a92699160324c5ccd">xrif_handle::type_code</a>, <a class="el" href="structxrif__handle.html#af2bbbebf315caa0a2094adf1c0fcb311">xrif_handle::width</a>, <a class="el" href="group__error__codes.html#gafaf2fa6ad29b00fa8a91d5a151a14b35">XRIF_ERROR_NULLPTR</a>, and <a class="el" href="group__error__codes.html#ga2e8f4fc39ebed930506b14a4f2cb7637">XRIF_ERROR_PRINT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="group__xrif__init.html#ga3cc329d3e38d00c0faa7a4cebb70780b">xrif_new()</a>, and <a class="el" href="group__xrif__init.html#gaec8da3f37e809822fc73a3cc08218394">xrif_reset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="xrif__test__init_8c.html#a5002151a05750e3c9f87187b308ca2b9">START_TEST()</a>, <a class="el" href="group__xrif__init.html#ga3cc329d3e38d00c0faa7a4cebb70780b">xrif_new()</a>, and <a class="el" href="group__xrif__init.html#gaec8da3f37e809822fc73a3cc08218394">xrif_reset()</a>.</p>
 
 </div>
 </div>
@@ -332,7 +338,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00491">491</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00521">521</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#ae4cca09b5194eaa0f825e4398f0344f2">xrif_handle::compress_method</a>.</p>
 
@@ -368,7 +374,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00432">432</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00462">462</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#af32486d9f28b388f0885e6f5620c5101">xrif_handle::compress_on_raw</a>, <a class="el" href="structxrif__handle.html#add9a832cb2e842004f24bb3eec5195a9">xrif_handle::data_size</a>, <a class="el" href="structxrif__handle.html#a6fe7493a58319fc496b82e10b49c0443">xrif_handle::depth</a>, <a class="el" href="structxrif__handle.html#a52b318708922cad601a1ff958bcfd2fd">xrif_handle::frames</a>, <a class="el" href="structxrif__handle.html#a19f5a4b323189549f3213dd94efb2f10">xrif_handle::height</a>, <a class="el" href="structxrif__handle.html#af2bbbebf315caa0a2094adf1c0fcb311">xrif_handle::width</a>, and <a class="el" href="group__xrif__init__fine.html#ga9ef58f09352c40eaa1a371607fd0db8f">xrif_min_compressed_size()</a>.</p>
 
@@ -404,11 +410,11 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00455">455</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00485">485</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#ad4b3e7e9d3a045b5c06189836590f9b0">xrif_handle::reorder_method</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="group__xrif__init__fine.html#ga1f767b47f2286a15fa7302faf109b8b7">xrif_allocate_reordered()</a>, and <a class="el" href="group__xrif__init__fine.html#gafafd5a1e028ac8fa4ccafbebbcd9cf7e">xrif_set_reordered()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="group__xrif__init__fine.html#ga1f767b47f2286a15fa7302faf109b8b7">xrif_allocate_reordered()</a>, <a class="el" href="group__xrif__compress.html#ga959501dcd97c02e7a3832ad6c02dcae7">xrif_compress_lz4()</a>, <a class="el" href="group__xrif__compress.html#gac3cd6a902bfaa63539073d6e088dac51">xrif_decompress_lz4()</a>, and <a class="el" href="group__xrif__init__fine.html#gafafd5a1e028ac8fa4ccafbebbcd9cf7e">xrif_set_reordered()</a>.</p>
 
 </div>
 </div>
@@ -439,7 +445,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set the compress method. </p>
-<p>Sets the compress_method member of handle.</p>
+<p>Sets the compress_method member of handle. Valid methods are XRIF_COMPRESS_NONE, XRIF_COMPRESS_DEFAULT, and XRIF_COMPRESS_LZ4. XRIF_COMPRESS_DEFAULT is equivalent to XRIF_COMPRESS_LZ4.</p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__error__codes.html#gafaf2fa6ad29b00fa8a91d5a151a14b35">XRIF_ERROR_NULLPTR</a> if <code>handle</code> is a NULL pointer </dd>
 <dd>
 <a class="el" href="group__error__codes.html#gaf49b31020ea1b3ff33e9942b849173ca">XRIF_ERROR_BADARG</a> if <code>compress_method</code> is not a valid compress method. Will set method to XRIF_COMPRESS_DEFAULT. </dd>
@@ -514,7 +520,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00685">685</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00715">715</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#aee20fd82b5f0721ff4e3303e25db1546">xrif_handle::compressed_buffer</a>, <a class="el" href="structxrif__handle.html#a8510e35db561c4659a27004cc5ffa572">xrif_handle::compressed_buffer_size</a>, <a class="el" href="structxrif__handle.html#a233060c3f2e492ab2c4474084c90e115">xrif_handle::own_compressed</a>, <a class="el" href="group__error__codes.html#gaf2a83bf4549ecd126f9baf71759a8011">XRIF_ERROR_INSUFFICIENT_SIZE</a>, <a class="el" href="group__error__codes.html#ga421e0dad6f4aacd19402639bebe112a8">XRIF_ERROR_INVALID_SIZE</a>, <a class="el" href="group__error__codes.html#gafaf2fa6ad29b00fa8a91d5a151a14b35">XRIF_ERROR_NULLPTR</a>, <a class="el" href="group__error__codes.html#ga2e8f4fc39ebed930506b14a4f2cb7637">XRIF_ERROR_PRINT</a>, <a class="el" href="group__xrif__init__fine.html#ga9ef58f09352c40eaa1a371607fd0db8f">xrif_min_compressed_size()</a>, and <a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a>.</p>
 
@@ -566,6 +572,54 @@ Functions</h2></td></tr>
 <p class="reference">References <a class="el" href="group__error__codes.html#gafaf2fa6ad29b00fa8a91d5a151a14b35">XRIF_ERROR_NULLPTR</a>, and <a class="el" href="group__error__codes.html#ga2e8f4fc39ebed930506b14a4f2cb7637">XRIF_ERROR_PRINT</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="group__xrif__init.html#ga43880f289d348a25fa3b1e954600e606">xrif_configure()</a>.</p>
+
+</div>
+</div>
+<a id="gaa6876e648d5067b72b0ecc0e8833bcd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa6876e648d5067b72b0ecc0e8833bcd6">&#9670;&nbsp;</a></span>xrif_set_lz4_acceleration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a> xrif_set_lz4_acceleration </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a>&#160;</td>
+          <td class="paramname"><em>handle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>lz4_accel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the LZ4 acceleration parameter. </p>
+<p>The LZ4 acceleration paraameter is a number greater than or equal to 1. Larger values speed up the compression process, but with less size reduction. The default and minimum value is 1 (XRIF_LZ4_ACCEL_MIN). <br  />
+ The maximum value is 65537 (XRIF_LZ4_ACCEL_MAX). The LZ4 docs claim a +-3% improvement in speed for each incrment.</p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__error__codes.html#gafaf2fa6ad29b00fa8a91d5a151a14b35">XRIF_ERROR_NULLPTR</a> if <code>handle</code> is a NULL pointer </dd>
+<dd>
+<a class="el" href="group__error__codes.html#gaf49b31020ea1b3ff33e9942b849173ca">XRIF_ERROR_BADARG</a> if <code>lz4_acceleration</code> is out of range. Will set value to correspondling min or max limit. </dd>
+<dd>
+<a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a> on success. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle to be configured </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lz4_accel</td><td>[in] LZ4 acceleration parameter </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00432">432</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+
+<p class="reference">References <a class="el" href="group__error__codes.html#gafaf2fa6ad29b00fa8a91d5a151a14b35">XRIF_ERROR_NULLPTR</a>, and <a class="el" href="group__error__codes.html#ga2e8f4fc39ebed930506b14a4f2cb7637">XRIF_ERROR_PRINT</a>.</p>
 
 </div>
 </div>
@@ -621,7 +675,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00508">508</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00538">538</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#a07a35747cca99e4da17bce0cda3237d2">xrif_handle::own_raw</a>, <a class="el" href="structxrif__handle.html#acefc822b1932287817fa6dcda7f07c90">xrif_handle::raw_buffer</a>, <a class="el" href="structxrif__handle.html#a489a8131ea1359f183043c0ae3016a16">xrif_handle::raw_buffer_size</a>, <a class="el" href="group__error__codes.html#gaf2a83bf4549ecd126f9baf71759a8011">XRIF_ERROR_INSUFFICIENT_SIZE</a>, <a class="el" href="group__error__codes.html#ga421e0dad6f4aacd19402639bebe112a8">XRIF_ERROR_INVALID_SIZE</a>, <a class="el" href="group__error__codes.html#gafaf2fa6ad29b00fa8a91d5a151a14b35">XRIF_ERROR_NULLPTR</a>, <a class="el" href="group__error__codes.html#ga2e8f4fc39ebed930506b14a4f2cb7637">XRIF_ERROR_PRINT</a>, <a class="el" href="group__xrif__init__fine.html#gaf0c24bb97d8ccf7e1d70793c0ffa8298">xrif_min_raw_size()</a>, and <a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a>.</p>
 
@@ -733,7 +787,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00597">597</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l00627">627</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#a06a8c3effe3c894f2c262f8480b5d6f4">xrif_handle::own_reordered</a>, <a class="el" href="structxrif__handle.html#ac19fd52d365d02f805fb92598412c022">xrif_handle::reordered_buffer</a>, <a class="el" href="structxrif__handle.html#aec6ab9a506e4e7463e9ed37f52084ab8">xrif_handle::reordered_buffer_size</a>, <a class="el" href="group__error__codes.html#gaf2a83bf4549ecd126f9baf71759a8011">XRIF_ERROR_INSUFFICIENT_SIZE</a>, <a class="el" href="group__error__codes.html#ga421e0dad6f4aacd19402639bebe112a8">XRIF_ERROR_INVALID_SIZE</a>, <a class="el" href="group__error__codes.html#gafaf2fa6ad29b00fa8a91d5a151a14b35">XRIF_ERROR_NULLPTR</a>, <a class="el" href="group__error__codes.html#ga2e8f4fc39ebed930506b14a4f2cb7637">XRIF_ERROR_PRINT</a>, <a class="el" href="group__xrif__init__fine.html#gaa20732e11921fa49e1477fcf88ee9d52">xrif_min_reordered_size()</a>, and <a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a>.</p>
 

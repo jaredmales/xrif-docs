@@ -45,6 +45,7 @@ var group__xrif__interface =
       [ "width", "structxrif__handle.html#af2bbbebf315caa0a2094adf1c0fcb311", null ]
     ] ],
     [ "Initialization, Setup, and Allocation", "group__xrif__init.html", "group__xrif__init" ],
+    [ "Current Configuration", "group__access.html", "group__access" ],
     [ "Header Processing", "group__header.html", "group__header" ],
     [ "Encoding & Decoding", "group__xrif__encode.html", "group__xrif__encode" ],
     [ "Performance Measurements", "group__xrif__performance.html", "group__xrif__performance" ],

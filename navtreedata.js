@@ -24,6 +24,7 @@ var NAVTREE =
 [
   [ "xrif", "index.html", [
     [ "User's Guide", "modules.html", "modules" ],
+    [ "Test List", "test.html", null ],
     [ "Todo List", "todo.html", null ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
@@ -48,7 +49,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"group__xrif__reorder__bytepack.html#ga544817afc497e5d2bc57fce7e75197ff"
+"group__xrif__performance.html#gaa91eeb05142204b157523b00ec73394f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

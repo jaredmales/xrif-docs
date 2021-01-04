@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['width_59',['width',['../structxrif__handle.html#af2bbbebf315caa0a2094adf1c0fcb311',1,'xrif_handle']]]
+  ['utilities_61',['Utilities',['../group__xrif__utils.html',1,'']]]
 ];

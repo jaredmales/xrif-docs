@@ -124,8 +124,11 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="xrif_8h__dep__incl.png" border="0" usemap="#_2home_2jrmales_2Source_2xrif_2src_2xrif_8hdep" alt=""/></div>
 <map name="_2home_2jrmales_2Source_2xrif_2src_2xrif_8hdep" id="_2home_2jrmales_2Source_2xrif_2src_2xrif_8hdep">
-<area shape="rect" title="The eXtreme&#45;ao Reordered Image Format: Declarations." alt="" coords="5,5,169,47"/>
-<area shape="rect" href="xrif_8c.html" title="The eXtreme&#45;ao Reordered Image Format: Definitions." alt="" coords="5,95,169,136"/>
+<area shape="rect" title="The eXtreme&#45;ao Reordered Image Format: Declarations." alt="" coords="349,5,513,47"/>
+<area shape="rect" href="xrif_8c.html" title="The eXtreme&#45;ao Reordered Image Format: Definitions." alt="" coords="5,102,169,143"/>
+<area shape="rect" href="xrif__test__difference__previous__whitenoise_8c_source.html" title=" " alt="" coords="193,95,440,151"/>
+<area shape="rect" href="xrif__test__init_8c.html" title="Tests of xrif initialization." alt="" coords="464,95,628,151"/>
+<area shape="rect" href="xrif__test__whitenoise_8c_source.html" title=" " alt="" coords="652,95,816,151"/>
 </map>
 </div>
 </div>
@@ -187,6 +190,12 @@ Macros</h2></td></tr>
 <tr class="memitem:a3a361b5e564650d07c3f918013031cea"><td class="memItemLeft" align="right" valign="top"><a id="a3a361b5e564650d07c3f918013031cea"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>XRIF_COMPRESS_LZ4</b>&#160;&#160;&#160;(100)</td></tr>
 <tr class="separator:a3a361b5e564650d07c3f918013031cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa44a93e02550f9d0eb45606c66c92d40"><td class="memItemLeft" align="right" valign="top"><a id="aa44a93e02550f9d0eb45606c66c92d40"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>XRIF_LZ4_ACCEL_MIN</b>&#160;&#160;&#160;(1)</td></tr>
+<tr class="separator:aa44a93e02550f9d0eb45606c66c92d40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ce63135220b3cb3a9018a0210281911"><td class="memItemLeft" align="right" valign="top"><a id="a8ce63135220b3cb3a9018a0210281911"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>XRIF_LZ4_ACCEL_MAX</b>&#160;&#160;&#160;(65537)</td></tr>
+<tr class="separator:a8ce63135220b3cb3a9018a0210281911"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9648a332325625e69f9084410a7d2d7f"><td class="memItemLeft" align="right" valign="top">
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a>&#160;&#160;&#160;(0)</td></tr>
 <tr class="memdesc:ga9648a332325625e69f9084410a7d2d7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return code for success. <br /></td></tr>
@@ -224,13 +233,17 @@ Macros</h2></td></tr>
 <tr class="memdesc:gaf49b31020ea1b3ff33e9942b849173ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return code indicating that a bad argument was passed. <br /></td></tr>
 <tr class="separator:gaf49b31020ea1b3ff33e9942b849173ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0a3137f2de382347f089635a2f118276"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__error__codes.html#ga0a3137f2de382347f089635a2f118276">XRIF_ERROR_BADHEADER</a>&#160;&#160;&#160;(-1000);</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__error__codes.html#ga0a3137f2de382347f089635a2f118276">XRIF_ERROR_BADHEADER</a>&#160;&#160;&#160;(-1000)</td></tr>
 <tr class="memdesc:ga0a3137f2de382347f089635a2f118276"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return code indicating that the header is bad. <br /></td></tr>
 <tr class="separator:ga0a3137f2de382347f089635a2f118276"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae01f376664a2eefd97a9b6374e55cce5"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__error__codes.html#gae01f376664a2eefd97a9b6374e55cce5">XRIF_ERROR_WRONGVERSION</a>&#160;&#160;&#160;(-1010);</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__error__codes.html#gae01f376664a2eefd97a9b6374e55cce5">XRIF_ERROR_WRONGVERSION</a>&#160;&#160;&#160;(-1010)</td></tr>
 <tr class="memdesc:gae01f376664a2eefd97a9b6374e55cce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return code indicating that a wrong version was specified. <br /></td></tr>
 <tr class="separator:gae01f376664a2eefd97a9b6374e55cce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7357be37932c0acab63cbca0b4090bce"><td class="memItemLeft" align="right" valign="top">
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__error__codes.html#ga7357be37932c0acab63cbca0b4090bce">XRIF_ERROR_LIBERR</a>&#160;&#160;&#160;(-10000)</td></tr>
+<tr class="memdesc:ga7357be37932c0acab63cbca0b4090bce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return code indicating a library returned an error (e.g. LZ4). The library error code may be added to this. <br /></td></tr>
+<tr class="separator:ga7357be37932c0acab63cbca0b4090bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2e8f4fc39ebed930506b14a4f2cb7637"><td class="memItemLeft" align="right" valign="top">
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__error__codes.html#ga2e8f4fc39ebed930506b14a4f2cb7637">XRIF_ERROR_PRINT</a>(function,  msg)&#160;&#160;&#160;fprintf(stderr, &quot;%s: %s\n&quot;, function, msg)</td></tr>
 <tr class="memdesc:ga2e8f4fc39ebed930506b14a4f2cb7637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard error report. <br /></td></tr>
@@ -341,6 +354,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gadf3610d807ed4e8d7a9873a0972fa1e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__init__fine.html#gadf3610d807ed4e8d7a9873a0972fa1e6">xrif_set_compress_method</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle, int compress_method)</td></tr>
 <tr class="memdesc:gadf3610d807ed4e8d7a9873a0972fa1e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the compress method.  <a href="group__xrif__init__fine.html#gadf3610d807ed4e8d7a9873a0972fa1e6">More...</a><br /></td></tr>
 <tr class="separator:gadf3610d807ed4e8d7a9873a0972fa1e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa6876e648d5067b72b0ecc0e8833bcd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__init__fine.html#gaa6876e648d5067b72b0ecc0e8833bcd6">xrif_set_lz4_acceleration</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle, int32_t lz4_accel)</td></tr>
+<tr class="memdesc:gaa6876e648d5067b72b0ecc0e8833bcd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the LZ4 acceleration parameter.  <a href="group__xrif__init__fine.html#gaa6876e648d5067b72b0ecc0e8833bcd6">More...</a><br /></td></tr>
+<tr class="separator:gaa6876e648d5067b72b0ecc0e8833bcd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf0c24bb97d8ccf7e1d70793c0ffa8298"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__init__fine.html#gaf0c24bb97d8ccf7e1d70793c0ffa8298">xrif_min_raw_size</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
 <tr class="memdesc:gaf0c24bb97d8ccf7e1d70793c0ffa8298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the minimum size of the raw buffer.  <a href="group__xrif__init__fine.html#gaf0c24bb97d8ccf7e1d70793c0ffa8298">More...</a><br /></td></tr>
 <tr class="separator:gaf0c24bb97d8ccf7e1d70793c0ffa8298"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -368,6 +384,18 @@ Functions</h2></td></tr>
 <tr class="memitem:gafea3fddc2aeaa3ff7987a811988d5490"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__xrif__init__fine.html#gafea3fddc2aeaa3ff7987a811988d5490">xrif_allocate_compressed</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
 <tr class="memdesc:gafea3fddc2aeaa3ff7987a811988d5490"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate the compressed buffer based on the already set stream dimensions.  <a href="group__xrif__init__fine.html#gafea3fddc2aeaa3ff7987a811988d5490">More...</a><br /></td></tr>
 <tr class="separator:gafea3fddc2aeaa3ff7987a811988d5490"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga46476d1ed9ed10fdd47c1b13fc852863"><td class="memItemLeft" align="right" valign="top"><a class="el" href="xrif_8h.html#a1103ee93d19febeb85962f5f8c8044a6">xrif_dimension_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__access.html#ga46476d1ed9ed10fdd47c1b13fc852863">xrif_width</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
+<tr class="memdesc:ga46476d1ed9ed10fdd47c1b13fc852863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current width of the configured handle.  <a href="group__access.html#ga46476d1ed9ed10fdd47c1b13fc852863">More...</a><br /></td></tr>
+<tr class="separator:ga46476d1ed9ed10fdd47c1b13fc852863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaa2adfdea300d998c893fe5d9a28c304"><td class="memItemLeft" align="right" valign="top"><a class="el" href="xrif_8h.html#a1103ee93d19febeb85962f5f8c8044a6">xrif_dimension_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__access.html#gaaa2adfdea300d998c893fe5d9a28c304">xrif_height</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
+<tr class="memdesc:gaaa2adfdea300d998c893fe5d9a28c304"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current height of the configured handle.  <a href="group__access.html#gaaa2adfdea300d998c893fe5d9a28c304">More...</a><br /></td></tr>
+<tr class="separator:gaaa2adfdea300d998c893fe5d9a28c304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacf84f27f16876b71305e37cb114899e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="xrif_8h.html#a1103ee93d19febeb85962f5f8c8044a6">xrif_dimension_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__access.html#gacf84f27f16876b71305e37cb114899e6">xrif_depth</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
+<tr class="memdesc:gacf84f27f16876b71305e37cb114899e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current depth of the configured handle.  <a href="group__access.html#gacf84f27f16876b71305e37cb114899e6">More...</a><br /></td></tr>
+<tr class="separator:gacf84f27f16876b71305e37cb114899e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga98a4d8d5597faec87e7d1d71b9ad9176"><td class="memItemLeft" align="right" valign="top"><a class="el" href="xrif_8h.html#a1103ee93d19febeb85962f5f8c8044a6">xrif_dimension_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__access.html#ga98a4d8d5597faec87e7d1d71b9ad9176">xrif_frames</a> (<a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
+<tr class="memdesc:ga98a4d8d5597faec87e7d1d71b9ad9176"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current number of frames of the configured handle.  <a href="group__access.html#ga98a4d8d5597faec87e7d1d71b9ad9176">More...</a><br /></td></tr>
+<tr class="separator:ga98a4d8d5597faec87e7d1d71b9ad9176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab728ae563337fe19e17b46d731c0198c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__error__codes.html#ga1b767bc33c386078b693d378d937847e">xrif_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__header.html#gab728ae563337fe19e17b46d731c0198c">xrif_write_header</a> (char *header, <a class="el" href="group__xrif__interface.html#ga669d368afbcb2c7f59d7bcda7486a152">xrif_t</a> handle)</td></tr>
 <tr class="memdesc:gab728ae563337fe19e17b46d731c0198c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate a header buffer with the xrif protocol details.  <a href="group__header.html#gab728ae563337fe19e17b46d731c0198c">More...</a><br /></td></tr>
 <tr class="separator:gab728ae563337fe19e17b46d731c0198c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -538,7 +566,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01289">1289</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01358">1358</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#a52b318708922cad601a1ff958bcfd2fd">xrif_handle::frames</a>, <a class="el" href="structxrif__handle.html#a19f5a4b323189549f3213dd94efb2f10">xrif_handle::height</a>, <a class="el" href="structxrif__handle.html#acefc822b1932287817fa6dcda7f07c90">xrif_handle::raw_buffer</a>, <a class="el" href="structxrif__handle.html#af2bbbebf315caa0a2094adf1c0fcb311">xrif_handle::width</a>, and <a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a>.</p>
 
@@ -561,7 +589,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>xrif_reorder_bitpack needs a size check </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01784">1784</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01853">1853</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#ad4598b2ff9bc32b636fb9ccb3f8e6477">xrif_handle::difference_method</a>.</p>
 
@@ -614,7 +642,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01678">1678</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01747">1747</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#ad4598b2ff9bc32b636fb9ccb3f8e6477">xrif_handle::difference_method</a>.</p>
 
@@ -666,7 +694,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l02087">2087</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l02156">2156</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#ad4598b2ff9bc32b636fb9ccb3f8e6477">xrif_handle::difference_method</a>.</p>
 
@@ -694,7 +722,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l02009">2009</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l02078">2078</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#ad4598b2ff9bc32b636fb9ccb3f8e6477">xrif_handle::difference_method</a>.</p>
 

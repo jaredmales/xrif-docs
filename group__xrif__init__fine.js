@@ -10,6 +10,7 @@ var group__xrif__init__fine =
     [ "xrif_set_compress_method", "group__xrif__init__fine.html#gadf3610d807ed4e8d7a9873a0972fa1e6", null ],
     [ "xrif_set_compressed", "group__xrif__init__fine.html#ga415ccad9f0738c17df65fabdc66a1bdc", null ],
     [ "xrif_set_difference_method", "group__xrif__init__fine.html#ga40869f20d8deeb78184b6d9413bfadae", null ],
+    [ "xrif_set_lz4_acceleration", "group__xrif__init__fine.html#gaa6876e648d5067b72b0ecc0e8833bcd6", null ],
     [ "xrif_set_raw", "group__xrif__init__fine.html#gad6b1d28e31892aa57365d9848abbd0dd", null ],
     [ "xrif_set_reorder_method", "group__xrif__init__fine.html#gac23547c83546d841dd2976a28bde3b48", null ],
     [ "xrif_set_reordered", "group__xrif__init__fine.html#gafafd5a1e028ac8fa4ccafbebbcd9cf7e", null ]
