@@ -152,7 +152,14 @@ Functions</h2></td></tr>
 <dd>
 other error codes from the differencing functions </dd>
 <dd>
-<a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a> on success </dd></dl>
+<a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a> on success</dd></dl>
+<dl class="test"><dt><b><a class="el" href="test.html#_test000002">Test:</a></b></dt><dd><p class="startdd">Verify previous differencing for int16_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_int16_white">[test doc]</a> </p>
+<p class="interdd">Verify previous differencing for uint16_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_uint16_white">[test doc]</a> </p>
+<p class="interdd">Verify previous differencing for int32_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_int32_white">[test doc]</a> </p>
+<p class="interdd">Verify previous differencing for uint32_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_uint32_white">[test doc]</a> </p>
+<p class="interdd">Verify previous differencing for int64_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_int64_white">[test doc]</a> </p>
+<p class="enddd">Verify previous differencing for uint64_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_uint64_white">[test doc]</a> </p>
+</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle </td></tr>
@@ -184,9 +191,10 @@ other error codes from the differencing functions </dd>
 
 <p>Difference all images with respect to previous image, for signed 16-bit integer data type. </p>
 <p>Note that this is currently used for unsigned 16-bits as well. This is likely suboptimal.</p>
-<dl class="section return"><dt>Returns</dt><dd>XRIF_NOERROR on success. </dd>
-<dd>
-XRIF_ERROR_XXXX on error, with the appropriate error code. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>XRIF_NOERROR on success.</dd></dl>
+<dl class="test"><dt><b><a class="el" href="test.html#_test000003">Test:</a></b></dt><dd><p class="startdd">Verify previous differencing for int16_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_int16_white">[test doc]</a> </p>
+<p class="enddd">Verify previous differencing for uint16_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_uint16_white">[test doc]</a> </p>
+</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle </td></tr>
@@ -220,9 +228,10 @@ XRIF_ERROR_XXXX on error, with the appropriate error code. </dd></dl>
 
 <p>Difference all images with respect to previous image, for signed 32-bit integer data type. </p>
 <p>Note that this is currently used for unsigned 32-bits as well. This is likely suboptimal.</p>
-<dl class="section return"><dt>Returns</dt><dd>XRIF_NOERROR on success. </dd>
-<dd>
-XRIF_ERROR_XXXXX on error, with the appropriate error code. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>XRIF_NOERROR on success.</dd></dl>
+<dl class="test"><dt><b><a class="el" href="test.html#_test000004">Test:</a></b></dt><dd><p class="startdd">Verify previous differencing for int32_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_int32_white">[test doc]</a> </p>
+<p class="enddd">Verify previous differencing for uint32_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_uint32_white">[test doc]</a> </p>
+</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle </td></tr>
@@ -230,7 +239,7 @@ XRIF_ERROR_XXXXX on error, with the appropriate error code. </dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01216">1216</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01227">1227</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#a6fe7493a58319fc496b82e10b49c0443">xrif_handle::depth</a>, <a class="el" href="structxrif__handle.html#a52b318708922cad601a1ff958bcfd2fd">xrif_handle::frames</a>, <a class="el" href="structxrif__handle.html#a19f5a4b323189549f3213dd94efb2f10">xrif_handle::height</a>, <a class="el" href="structxrif__handle.html#acefc822b1932287817fa6dcda7f07c90">xrif_handle::raw_buffer</a>, <a class="el" href="structxrif__handle.html#af2bbbebf315caa0a2094adf1c0fcb311">xrif_handle::width</a>, and <a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a>.</p>
 
@@ -256,9 +265,10 @@ XRIF_ERROR_XXXXX on error, with the appropriate error code. </dd></dl>
 
 <p>Difference all images with respect to previous image, for signed 64-bit data type. </p>
 <p>Note that this is currently used for unsigned 64-bits as well. This is likely suboptimal.</p>
-<dl class="section return"><dt>Returns</dt><dd>XRIF_NOERROR on success. </dd>
-<dd>
-XRIF_ERROR_XXXXX on error, with the appropriate error code. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>XRIF_NOERROR on success.</dd></dl>
+<dl class="test"><dt><b><a class="el" href="test.html#_test000005">Test:</a></b></dt><dd><p class="startdd">Verify previous differencing for int64_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_int64_white">[test doc]</a> </p>
+<p class="enddd">Verify previous differencing for uint64_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_uint64_white">[test doc]</a> </p>
+</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle </td></tr>
@@ -266,7 +276,7 @@ XRIF_ERROR_XXXXX on error, with the appropriate error code. </dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01250">1250</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01254">1254</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#a6fe7493a58319fc496b82e10b49c0443">xrif_handle::depth</a>, <a class="el" href="structxrif__handle.html#a52b318708922cad601a1ff958bcfd2fd">xrif_handle::frames</a>, <a class="el" href="structxrif__handle.html#a19f5a4b323189549f3213dd94efb2f10">xrif_handle::height</a>, <a class="el" href="structxrif__handle.html#acefc822b1932287817fa6dcda7f07c90">xrif_handle::raw_buffer</a>, <a class="el" href="structxrif__handle.html#af2bbbebf315caa0a2094adf1c0fcb311">xrif_handle::width</a>, and <a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a>.</p>
 
@@ -298,7 +308,14 @@ XRIF_ERROR_XXXXX on error, with the appropriate error code. </dd></dl>
 <dd>
 XRIF_ERROR codes from the undifferencing functions </dd>
 <dd>
-<a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a> on success </dd></dl>
+<a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a> on success</dd></dl>
+<dl class="test"><dt><b><a class="el" href="test.html#_test000014">Test:</a></b></dt><dd><p class="startdd">Verify previous differencing for int16_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_int16_white">[test doc]</a> </p>
+<p class="interdd">Verify previous differencing for uint16_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_uint16_white">[test doc]</a> </p>
+<p class="interdd">Verify previous differencing for int32_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_int32_white">[test doc]</a> </p>
+<p class="interdd">Verify previous differencing for uint32_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_uint32_white">[test doc]</a> </p>
+<p class="interdd">Verify previous differencing for int64_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_int64_white">[test doc]</a> </p>
+<p class="enddd">Verify previous differencing for uint64_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_uint64_white">[test doc]</a></p>
+</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle </td></tr>
@@ -306,7 +323,7 @@ XRIF_ERROR codes from the undifferencing functions </dd>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01428">1428</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01583">1583</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#a4a2a784032b50e0a92699160324c5ccd">xrif_handle::type_code</a>, <a class="el" href="group__error__codes.html#gafaf2fa6ad29b00fa8a91d5a151a14b35">XRIF_ERROR_NULLPTR</a>, <a class="el" href="group__error__codes.html#ga2e8f4fc39ebed930506b14a4f2cb7637">XRIF_ERROR_PRINT</a>, <a class="el" href="group__typecodes.html#gaaf8c1b65b6ca501365b4e587b62f607b">XRIF_TYPECODE_INT16</a>, <a class="el" href="group__typecodes.html#gac47d89137ba0df66616bb90ea33ef2fc">XRIF_TYPECODE_INT32</a>, <a class="el" href="group__typecodes.html#ga47357eb2931027cc0f1c1e51455ee0a7">XRIF_TYPECODE_INT64</a>, <a class="el" href="group__typecodes.html#ga4088e149eaf02b617dd84278484949aa">XRIF_TYPECODE_UINT16</a>, <a class="el" href="group__typecodes.html#gad4fcbda896df336c4b7cdb80444fb9de">XRIF_TYPECODE_UINT32</a>, <a class="el" href="group__typecodes.html#ga8766d015bf6bf92e697c074f00c41a3a">XRIF_TYPECODE_UINT64</a>, <a class="el" href="group__xrif__diff__previous.html#ga670351cd6cdbf48fb10d2129c69ebb6c">xrif_undifference_previous_sint16()</a>, <a class="el" href="group__xrif__diff__previous.html#ga15fc56d70edb8378f3ecf17889ccfcdf">xrif_undifference_previous_sint32()</a>, and <a class="el" href="group__xrif__diff__previous.html#ga252ef95e489614a9933587296b49a17a">xrif_undifference_previous_sint64()</a>.</p>
 
@@ -330,9 +347,10 @@ XRIF_ERROR codes from the undifferencing functions </dd>
 
 <p>Reverse the differencing operation, w.r.t. the previous image, for signed 16-bit integer data type. </p>
 <p>Note that this is currently used for unsigned 16-bits as well. This is likely suboptimal.</p>
-<dl class="section return"><dt>Returns</dt><dd>XRIF_NOERROR on success. </dd>
-<dd>
-XRIF_ERROR on error, with the appropreate error code. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>XRIF_NOERROR on success.</dd></dl>
+<dl class="test"><dt><b><a class="el" href="test.html#_test000015">Test:</a></b></dt><dd><p class="startdd">Verify previous differencing for int16_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_int16_white">[test doc]</a> </p>
+<p class="enddd">Verify previous differencing for uint16_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_uint16_white">[test doc]</a></p>
+</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle </td></tr>
@@ -340,9 +358,9 @@ XRIF_ERROR on error, with the appropreate error code. </dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01456">1456</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01611">1611</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
-<p class="reference">References <a class="el" href="structxrif__handle.html#a6fe7493a58319fc496b82e10b49c0443">xrif_handle::depth</a>, <a class="el" href="structxrif__handle.html#a52b318708922cad601a1ff958bcfd2fd">xrif_handle::frames</a>, <a class="el" href="structxrif__handle.html#a19f5a4b323189549f3213dd94efb2f10">xrif_handle::height</a>, <a class="el" href="structxrif__handle.html#acefc822b1932287817fa6dcda7f07c90">xrif_handle::raw_buffer</a>, <a class="el" href="structxrif__handle.html#af2bbbebf315caa0a2094adf1c0fcb311">xrif_handle::width</a>, and <a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a>.</p>
+<p class="reference">References <a class="el" href="structxrif__handle.html#a6fe7493a58319fc496b82e10b49c0443">xrif_handle::depth</a>, <a class="el" href="structxrif__handle.html#a19f5a4b323189549f3213dd94efb2f10">xrif_handle::height</a>, <a class="el" href="structxrif__handle.html#acefc822b1932287817fa6dcda7f07c90">xrif_handle::raw_buffer</a>, <a class="el" href="structxrif__handle.html#af2bbbebf315caa0a2094adf1c0fcb311">xrif_handle::width</a>, and <a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="group__xrif__diff__previous.html#gaa67341fe8da42894f1ac56feed22f16b">xrif_undifference_previous()</a>.</p>
 
@@ -366,9 +384,10 @@ XRIF_ERROR on error, with the appropreate error code. </dd></dl>
 
 <p>Reverse the differencing operation, w.r.t. the previous image, for signed 32-bit integer data type. </p>
 <p>Note that this is currently used for unsigned 32-bits as well. This is likely suboptimal.</p>
-<dl class="section return"><dt>Returns</dt><dd>XRIF_NOERROR on success. </dd>
-<dd>
-XRIF_ERROR_XXXXX on error, with the appropriate error code. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>XRIF_NOERROR on success.</dd></dl>
+<dl class="test"><dt><b><a class="el" href="test.html#_test000016">Test:</a></b></dt><dd><p class="startdd">Verify previous differencing for int32_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_int32_white">[test doc]</a> </p>
+<p class="enddd">Verify previous differencing for uint32_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_uint32_white">[test doc]</a></p>
+</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle </td></tr>
@@ -376,7 +395,7 @@ XRIF_ERROR_XXXXX on error, with the appropriate error code. </dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01485">1485</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01637">1637</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#a6fe7493a58319fc496b82e10b49c0443">xrif_handle::depth</a>, <a class="el" href="structxrif__handle.html#a52b318708922cad601a1ff958bcfd2fd">xrif_handle::frames</a>, <a class="el" href="structxrif__handle.html#a19f5a4b323189549f3213dd94efb2f10">xrif_handle::height</a>, <a class="el" href="structxrif__handle.html#acefc822b1932287817fa6dcda7f07c90">xrif_handle::raw_buffer</a>, <a class="el" href="structxrif__handle.html#af2bbbebf315caa0a2094adf1c0fcb311">xrif_handle::width</a>, and <a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a>.</p>
 
@@ -402,9 +421,10 @@ XRIF_ERROR_XXXXX on error, with the appropriate error code. </dd></dl>
 
 <p>Reverse the differencing operation, w.r.t. the previous image, for signed 64-bit integer data type. </p>
 <p>Note that this is currently used for unsigned 64-bits as well. This is likely suboptimal.</p>
-<dl class="section return"><dt>Returns</dt><dd>XRIF_NOERROR on success. </dd>
-<dd>
-XRIF_ERROR_XXXXX on error, with the appropriate error code. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>XRIF_NOERROR on success.</dd></dl>
+<dl class="test"><dt><b><a class="el" href="test.html#_test000017">Test:</a></b></dt><dd><p class="startdd">Verify previous differencing for int64_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_int64_white">[test doc]</a> </p>
+<p class="enddd">Verify previous differencing for uint64_t <a class="el" href="xrif__test__difference__previous__whitenoise_8c.html#diff_previous_uint64_white">[test doc]</a></p>
+</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">handle</td><td>[in/out] the xrif handle </td></tr>
@@ -412,7 +432,7 @@ XRIF_ERROR_XXXXX on error, with the appropriate error code. </dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01514">1514</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xrif_8c_source.html#l01662">1662</a> of file <a class="el" href="xrif_8c_source.html">xrif.c</a>.</p>
 
 <p class="reference">References <a class="el" href="structxrif__handle.html#a6fe7493a58319fc496b82e10b49c0443">xrif_handle::depth</a>, <a class="el" href="structxrif__handle.html#a52b318708922cad601a1ff958bcfd2fd">xrif_handle::frames</a>, <a class="el" href="structxrif__handle.html#a19f5a4b323189549f3213dd94efb2f10">xrif_handle::height</a>, <a class="el" href="structxrif__handle.html#acefc822b1932287817fa6dcda7f07c90">xrif_handle::raw_buffer</a>, <a class="el" href="structxrif__handle.html#af2bbbebf315caa0a2094adf1c0fcb311">xrif_handle::width</a>, and <a class="el" href="group__error__codes.html#ga9648a332325625e69f9084410a7d2d7f">XRIF_NOERROR</a>.</p>
 
