@@ -50,7 +50,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "group__xrif__performance.html#gac208196206399fa8aac4d39a20ea00b7",
-"xrif__test__init_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4"
+"xrif__test__init_8c.html#ac685ac38a4ba0e7b33e9fe3d9cc1c423"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
